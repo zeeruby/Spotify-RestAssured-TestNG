@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="PlayListTestSuite" verbose="1" >
+
+	<test name="FlightReservationTests-Ch" parallel = "methods" thread-count = "5">
+		<classes>
+			<class name="com.spotify.oauth2.tests.PlayListTests"/>
+		</classes>
+	</test>
+	
+</suite>
